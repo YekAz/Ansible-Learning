@@ -3,7 +3,7 @@
 - hosts: all
   become: true
   tasks:
-
+  
   - name: Update repo install Apache and php package
     package:
       name: 
